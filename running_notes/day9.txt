@@ -1,0 +1,122 @@
+day 9
+
+>Servletconfig--is for servlet
+>servletcontext---context is for entire application.
+>Filter,filterchain?Filters advantages
+>Lifecycle of servlets---loading--init--service---destroy
+>Horizontal scalling of servers and vertical scaling of server?
+>Web.xml--deployment descriptor/config file
+>types if configuration files
+xml,json,bson,properties,YAML
+>>Http request and httpresponse
+
+
+
+in our peojects we r using 2.5 version because is tha web.xml file where the servlets server  are store in web.xml.
+even thow he version is to old we are using for the projects 
+
+
+3.x version wont contain web.xml it contains only annotations.whichh is adavanced one in now a days world
+
+web.xml is also called as register and deployment descriptor
+for configuratin we use files like xml,json,bson(binary json),cson.
+
+>server configuration we use xml and json.
+
+increasing the power is known as scaling.
+
+every servlet will have servleconfig.object;
+evry appilication will have servletcontext(global for all servlets)
+ 
+filters are of two types 1.prefilter ND 2)POST FILTER
+
+prefilter-occurs with the httprequest(before)
+post filter-occurs with the output (after)
+group of filters are called as filter chain
+filters are used for writing security code
+uses while transfering the data
+redrection-moving from one to another place
+every server will have listner program
+if there is no listener program in server then the server is in dead state or inaactive state
+
+pop3 and pop ?
+
+>>>>Display welcome to infinite using servlet.
+>.javax.servlet.http.HttpServlet
+
+ocwcd---oracle certified web component developer
+servlets comes under j2ee
+
+>in eclipse ,wwe create srevlet,it will create 2 methoda
+doget,&dopost.
+
+
+HTTP method:
+GET
+PUT
+POST
+DELETE 
+INIT
+TRACE 
+PATCH
+
+but in servlett ,we have below methods:
+doget,if the servlet support HTTP GET request
+dopost,for HTTP POST request
+doput,for HTTP PUT request
+dodelete,for HTTP DELETE request
+
+>put vs poat?
+put-----updateing data
+
+
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

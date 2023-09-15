@@ -1,0 +1,145 @@
+day 7
+
+
+mysql ----db
+mysql workbench -----IDE----RAD tool---we can also connect to remote database.
+(in our projrcts we use remote database.)
+>>centralized database(out dated)/distributed databases(present working one).
+example for distributed database:bank balance .....
+>>>Transactions-----commit and rollback.
+we can do transactions on databse only.
+
+
+API-connecting to one to one,system to syetem by following rules and regulations.
+API is a mediatory for all type of transactions .
+API converts one form to anoher form,according to a requirement.
+API is a userdefined and predefined.
+for API developement and testing we have so many tools like JDBC,Rapid API(Is better to use),
+Open API is a most used tool in nowadays .
+>openApi is called as postman .
+
+to store the data in backend we need - App--JDBC Driver----DB
+servers are always dynamic.
+db is a server.
+
+JDBC API----
+we have to layers
+1.application layer 2.drivers
+
+IOT---sensors
+
+Datasource--origin point(from where ur data is streaming).
+>EVERY CONNECTION TO A DATABASE IS CALLED AS SESSION.
+example:   3 apps are conecting to same database.
+
+>>sessiom will be invalidated.
+>session1 ---going on-db
+>session2--going on-db
+ i made changes in db----
+
+
+
+for connecting to drivers we have some main steps:
+>loading drivers,
+>establishing connction,
+>creating statements,
+>executing statements queries,
+>handle result,
+>close connection.
+
+
+for developer-it is request,,but for servers it is thread.
+
+R&D is the most required thing to developers
+
+Task1:  Explore***Sticky session***
+Every servers will have filters fo sure.
+fileters are not ment for develpement.it is software progamm
+in JDBC we have dbfilters
+>>phishing filter:it is more about security.this filter we see in chrome to filter the data,to protect the data fro autorized activities.
+
+mysql---for learning
+mysql workbench --- for projects and development
+>alternative for mysql workbench we can go with the eclipse datasoure features ,toad for mysql,.....etc
+ toad for mysql and oracle is totally different.
+
+
+to download jar file>>>>>>>>GA(General availaility).it is for public use.
+dont use alpha/beta/snapshot versions directly without team approaval.
+
+in projects we will use corporate repositories.IT team will place all dependence in a common orporate repositpory 
+>any repository that we create an organization for internal purpose is called as corporate repository.
+
+but,we are going to use the tool NEXUS SONARTYPE/Jfog repository managers.
+
+>>IT team will perform jar scanning(scans entire jar to check whether it is secure or not) for vulnarabilities.
+
+
+Network we create for internal purpose of an organization is called as INTRANET.
+https://www.sonatype.com/products/sonatype-nexus-repository
+****MAVEN TOOL****
+dependency management tool/build tool.
+GRADLE is tough compitetor for MAVEN.
+MAVEN is inbuilt in eclipse.
+
+
+****"git clone https://github.com/kolaparthi34k/Infinite_JavaBackend/tree/main/Jdbc"**** for dowloading the files
+>>>mysql details:
+connection metadata of mysql
+username :root
+>password:mysql@123 or mysql123@
+>Drivername:com.mysql.jdbc.Driver
+Db server ipaddress:localhost/127.0.0.1(loopback address)/ipaddress
+
+
+
+connection metadata of oracle
+username :root
+>password:mysql@123 or mysql123@
+>Drivername:oracle.jdbc.driver.OracleDriver
+Db server ipaddress:localhost/127.0.0.1(loopback address)/ipaddress
+
+
+every service or protocol runs on specific port no:
+http:8080
+https:8443/443
+mysql:3306
+otacle
+
+
+
+
+https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.28
+
+
+
+once the connection done the main thing we show concentrate on resultset.
+resultset is the main thing.
+resultset have manysets in jdbc
+which wwe use for the connections.
+
+
+
+ 
+pagination-used for displaying the content on the webpage
+batch -executes all mysql quaries at a time.
+concurrency-modification of the date on resultset,
+type -used for cursor to move from top to down or down to top.
+
+task-2:"types of resultset and concurency"
+write jdbc code to create the statements for insert update delete"(dynamic data)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+Day3:
+----
+>>pmd
+>>Sonar Qube: 5.5
+It is a code Quality testing tool.
+Sonarqube is available in 2 flavours.
+1)Sonar cloud
+2)Sonar On-premises
+>https://www.sonarsource.com/solutions/clean-code/
+
+>>>>>Loops:Loop is used for repeating a task till condition fails.
+
+++
+--
+
+Daily task: 9:ooam till 6:30pm
+Monday-----Friday
+When conditionfails?on weekends
+1)while
+2)do-while
+3)for
+4)for-each
+
+>>>While:
+================
+
+iniatialization
+While(condition)
+{
+s//instructions
+increment/decrement 
+}
+
+Requirement:
+
+10 13 16 19 22
+
+
+Req:
+
+1a 2a 3a 4a 5a
+
+Req5: display even no from 2345 till 5678.display "this no in even".
+
+Req6: 10 20 30 40 50 70 80 90
+
+hint:  continue;
+
+1)Write a Java program to display pattern in below way.
+1a 2b 3c 4d 5e....z26
+2)Program to display 24 table.
+3)Explore the memory size of datatypes in Java.
+4)Display your number.
+Use only integer datatype.
+5)Using do-while,display 1 to 50 in reverse order.
+
+===>
+
+Arrays,OOPS ,API,IO,
+
+while in if block
+if in while----yes
+while within while---possible
+while within do-while---possible
+if--if==>possible
+>>As java doesnt support pointers,there is no concept of Garbage values.it will display default value.
+
+>>>>Static and Non static:
+==========================
+>>static will be loaded into memory first.:no need to create object for static.
+>>non-static will be loaded last.We need to create object for non-static.
+>>static doent know anything about non-static.

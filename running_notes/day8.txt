@@ -1,0 +1,155 @@
+day 8
+
+Drawbacks:
+
+1)Make the values insert at runtime.
+Solution)Use PreparedStatement
+
+2)connection closing shld be in final.Final will run irrespective of exceptions in the  code.
+Solution)Can be handled in code.
+JDBC ,SErve
+3)Not portable
+Solution)Use properties or XML files.
+
+4)password shld not disclosed in code.
+solution:1)if we need to use the password in code,encrypty the password and then use.
+2)Place password in VAULT server or AWS Secrets manager  and pull password from  there.(prefered).Integrate vault code with JAva code.
+3)USe properties file and place your encrypted password in properties or xml or YAML file.
+"""VAult is the mostly use approach in now a days world"""
+
+5)driver class,url and passwords should be dynamic.
+solution)can be achieved using 4 the step.
+
+
+>prepared statements,LOB datatypes,saving images in db,batch operation,calling functios using callable statements.
+
+
+>>LOB stands for Large objects.
+
+1)BLob-
+2)clob
+3)nclob
+========================================
+Task1: SQL injection                    
+****(20th)----wallet webapplication.    
+>>JDBC,Servlets,Jsp****  
+
+Task2: Using prepared  statement insert single character into employee fullname.
+
+i/p:a
+o/p: record inserted successfully
+
+i/p:abcdd
+o/p:please provide character data.Operation Failed.
+             
+========================================
+
+>"prepared statement:"
+>this is mainly for i serting values to the queries at runtime.
+>prepared statement helps us to avoid SQL INjection upto some extent80%
+to use effectively prepard statement,if u follow the syands then injection is not possible.
+>in prepared statements we use "?" as a place holder
+
+
+fiddle
+SQL,PL/SQL(SQL+programming concepts),Forms and reports
+>>callable statemnets: used for calling functions/stored procedures in databases.
+
+>>oracle ADF--servlets-used for the interanl portal
+
+
+Image into database:
+
+create table imagestab(imagefile blob);
+Using JDBC code ,we should insert file to table.
+
+
+stream:follow of data continueously is called as stream
+
+
+PreparedStatement ps=con.prepareStatement("insert into imgtable values(?,?)");  
+ps.setString(1,"sonoo");  
+
+FileInputStream fin=new FileInputStream("d:\\g.jpg");  
+ps.setBinaryStream(2,fin,fin.available());  
+int i=ps.executeUpdate();  
+System.out.println(i+" records affected");
+
+
+
+""process of creating structure of a folder is called as scaffolding""
+
+
+=====
+"Servlets"
+
+servlets comes under serverside technology
+servelets is mainly used for webapplication.
+>servlet is a web component.
+to design an application we need to follow servlets ap specification.
+>works on http and https protocol
+servers uses jdk
+servelts works as front contoller(runner) in spring(mvc).
+
+servers are of 2types
+1)web server:
+http(s/w)(1.0,2.0,2.1,3.x --versions)when we deal with normal data which doesnt need security)
+https(httpf+ssl\ls)when we deal with sensitive data
++
+catalina(runs servlets progrsams)
++
+jasper(containor for jsp programs)
++
+middleware servers (min 6)(ex:lifecycle management,transaction mg ma,connection pooling,jndi{java naming directory services} service,)
++
+ejb container(cotainer to run ejb program)
++
+mq(messaing query)( container to run mq program)
+
+webservers are always faster than application server.
+ex:tomcat,jetty,ngns
+webserver have less capability than the application server.
+
+
+2)application server:glass fish,weblogic,web sphere,pramati....etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

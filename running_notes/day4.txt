@@ -1,0 +1,117 @@
+>static
+>public,private,proctected
+>oops concepts
+>strings/stringBuffer API
+>Exception Handling
+
+>Scanner class:using scanner ,we can provide input to the program to user
+>scanner is pre-defined class.
+
+ANypackage which starts with java, is predefined package.
+
+IN java , We are having 3modes
+...IN ,OUT,ERROR
+
+System class is a predefined class
+System.out.println()
+System.in
+System.Error
+
+
+...design a program for swapping, 2 table and displaying all alphabets using functions
+
+>>>while writing the code ,we can have both static and non-static contents
+====
+
+***private and  public:***
+
+.private,public,proctector............. are access specifiers
+
+NEXt topics are (Arrays ,ENUM,for,Switch,wrapper classes,oops).
+
+---
+Arrays:
+.primitive datatypes:int,float,double etc.
+
+.Array is non-primitive datatype .
+.array is a slower one.
+.in arrays length is property,it is not a function.
+
+int a=90;
+group of values in a variable-----reference datatypes.
+>every Array will have size.
+>we cannot exceed the size.
+>we cannot store mixed datatypes in arrays.
+>arrays will have index.
+
+reference datatypes===Arrays,
+-------
+ArrayIndexOutOfBounds Exception
+
+To access elements in an array,we use below syntax:
+Sysntax:<datatype>variablename[size];
+a[9];
+
+
+
+Task1: String y[]={"monday","tuesday","wednesday",......"sunday"};  ?
+if the loop reaches,then display output in reverse order"yadsendew" in upper case.
+2)Any operation is null
+
+indexOf()
+isEmpty()
+lastIndexof()
+equalsIfnoreCase()
+concat
+endswith
+hashCode
+replaceAll
+  
+3)Display:
+"I am bad programmer I am bad programmerI am bad programmerI am bad programmervI am bad programmerI am bad programmerI am bad 
+I am bad programmerI am bad programmerI am bad programmerI am bad programmerI am bad programmerI am bad programmerI am bad programmerI am bad 
+I am bad programmerI am bad programmerI am bad programmerI am bad programmerI am bad programmerI am bad programmerI am bad programmerI am bad 
+I am bad programmerI am bad programmerI am bad programmerI am bad programmerI am bad programmerI am bad programmerI am bad programmerI am bad "
+
+4)Returns the index within this string of the first occurrence.
+Returns the pndex wpthpn thps strpng of the first occurrence.
+
+5)Returns the index within this string of the first occurrence.
+o/p:
+No of 'i' letters: 6
+No of 'r' letters: 
+No of 'o' letters:
+
+"For":
+comes under loops ,
+for loop is a advanced version of your while and do while
+
+synrax:
+for(initialization;condition,++/--)
+{
+//statements
+}
+
+
+there are 2 types of arguments in java,they are;
+vm argument,program argument(used for passing value to vm).
+example:heapsize setting
+
+***How to use command line arguments?***
+
+Switch:
+>>switch for multiple conditions.
+>switch  consistes of multiple cases
+>every case will have a break
+syntax:
+switch(condition)
+case a://statement;
+case b://statement;
+case c://statement;
+case d://statement;
+default ://statement;
+
+
+OOPS Concepts:
+
+

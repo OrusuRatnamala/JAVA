@@ -1,0 +1,40 @@
+Day1
+======
+>Tools: Swagger/Postman/Log4j
+>BackEnd: Jdbc,Hibernate,SQL
+>FrontEnd: JSP,html5,CSS3,Javascript(ES6),React
+>Testing: Junit,Protractor
+>Programming:Java,Spring,SpringBoot
+>POC/Capstone--1 week
+>Architectures: Microservices Development,MVC1,MVC2
+---------------------
+Java Introduction
+
+>>J2SE/jse--Java Standard Edition---desiging basic app or desktop app
+J2EE/jee---Java Enterprise edition---Banking app or enterprise app
+J2ME/jme---Java Mobile edition----Mobile development/Embedded systems
+
+Web app and desktop app
+
+system s/w and app s/w
+
+check list: jdk,mysql,git,eclipse
+Eclipse+jdk
+
+=============>
+oracle Jdk or open Jdk or Jrocketkit or Scala
+
+>>>>>
+Jre folder is part of JDK.
+
+Nuts and Bolts:
+
+Cache
+Memory-RAM
+Loader-----utility or tool.Its job is to load something into memory.
+Platform--o/s--windows/sun solaris/Mac/linux/As 400
+Independent:if we are able to run code on windows,linux,mac,sun architectures.
+we need tp call it as architecture neutral
+i18n or Unicode
+Server
+i18n----internationalization
