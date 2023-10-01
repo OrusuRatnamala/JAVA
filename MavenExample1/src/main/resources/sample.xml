@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+<context:annotation-config />
+<bean id="custAddress1" class="com.infinite.beans.Address" scope="singleton">
+
+ 
+
+ 
+
+		<property name="doorNo" value="190/AA" />
+
+ 
+
+		<property name="streetName" value="West Avvenue" />
+
+ 
+
+		<property name="city" value="Chennai" />
+
+ 
+
+	</bean>
+<bean id="const" class="com.infinite.beans.Constructorinjection"
+		scope="singleton">
+<constructor-arg name="firstname" value="Boyini" />
+<constructor-arg name="id" value="Jahnavi" />
+</bean>
+<bean id="const1" class="com.infinite.beans.Constructorinjection"  init-method="
+		beaninit " destroy-method="beandestroy" scope="singleton">
+
+ 
+
+		<constructor-arg index="0" value="7" />
+<constructor-arg index="1" value="Jahnavi" />
+<constructor-arg index="2" value="8" />
+
+ 
+
+ 
+
+	</bean>
+</beans>
