@@ -1,0 +1,109 @@
+
+package com.infinite.web;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.sql.DataSource;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import com.infinite.datasource.Hikari;
+
+@Controller
+
+public class LoginValidation {
+
+	Connection con = null;
+
+	@RequestMapping("/login")
+
+	public String login(HttpServletRequest request, HttpServletResponse response)
+
+	{
+
+		System.out.println("this is login control");
+
+		try
+
+		{
+
+			DataSource datasource = Hikari.getDataSource();
+
+			con = datasource.getConnection();
+
+			String username = request.getParameter("username");
+
+			String password = request.getParameter("password");
+
+			PreparedStatement ps = con.prepareStatement("select * from Login Details where username=?");
+
+			ps.setString(1, username);
+
+			ResultSet rs = ps.executeQuery();
+
+			System.out.print("y");
+
+			while (rs.next())
+
+			{
+
+				if (rs.getString(1).equals(username))
+
+				{
+
+					System.out.print("e");
+
+					if (rs.getString(2).equals(password))
+
+					{
+
+						return "loginsuccess";
+
+					}
+
+					else
+
+					{
+
+						return "loginfailure";
+
+					}
+
+				}
+
+				else
+
+				{
+
+					return "login";
+
+				}
+
+			}
+
+		}
+
+		catch (SQLException e)
+
+		{
+
+			System.out.println(e);
+
+		}
+
+		catch (Exception e1)
+
+		{
+
+			System.out.println(e1);
+
+		}
+
+		return "login";
+
+	}
+
+}

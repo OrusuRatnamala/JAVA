@@ -42,11 +42,21 @@
 			<item value="[name]"/>
 		</list>
 	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
+		<list key="catalogUrl">
+			<item value="https://repo.maven.apache.org/maven2/archetype-catalog.xml"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\corejava\springdao\SpringPdf1\src\main"/>
+			<item value="C:\corejava\springdao\SpringPdf1\src\main\webapp\WEB-INF"/>
+			<item value="C:\corejava\springdao\Servers"/>
+			<item value="C:\corejava\springdao\SpringPdf1"/>
 			<item value="C:\corejava\springdao\SpringPdf1\src\main\java\com\infinite\pdf\HelloController.java"/>
 			<item value="C:\corejava\springdao\SpringJdbcExample"/>
-			<item value="C:\corejava\springdao\Servers"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -59,13 +69,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.infinite.app.PharmaApp"/>
+			<item value="com.infinite.train"/>
+			<item value="com.infinite.spring"/>
 		</list>
 		<list key="groupId">
-			<item value="com.infinite.app"/>
+			<item value="com.infinite.train"/>
+			<item value="com.infinite.spring"/>
 		</list>
 		<list key="artifactId">
-			<item value="PharmaApp"/>
+			<item value="TrainWeb"/>
+			<item value="SpringMvcFormValidationExample"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

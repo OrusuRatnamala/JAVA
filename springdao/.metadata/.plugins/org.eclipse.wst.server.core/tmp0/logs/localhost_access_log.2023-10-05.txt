@@ -1,11 +1,4 @@
-127.0.0.1 - - [05/Oct/2023:17:40:15 -0700] "GET / HTTP/1.1" 404 751
-0:0:0:0:0:0:0:1 - - [05/Oct/2023:17:40:15 -0700] "GET /SpringPdf/ HTTP/1.1" 200 239
-0:0:0:0:0:0:0:1 - - [05/Oct/2023:17:40:36 -0700] "GET /SpringPdf/ HTTP/1.1" 200 239
-0:0:0:0:0:0:0:1 - - [05/Oct/2023:17:40:43 -0700] "GET /SpringPdf/hello?name=admin&pass=admin&submit=Submit HTTP/1.1" 200 48
-127.0.0.1 - - [05/Oct/2023:17:59:23 -0700] "GET / HTTP/1.1" 404 751
-0:0:0:0:0:0:0:1 - - [05/Oct/2023:17:59:24 -0700] "GET /SpringPdf/ HTTP/1.1" 200 239
-0:0:0:0:0:0:0:1 - - [05/Oct/2023:17:59:32 -0700] "GET /SpringPdf/hello?name=admin&pass=admin&submit=Submit HTTP/1.1" 200 48
-127.0.0.1 - - [05/Oct/2023:18:09:23 -0700] "GET / HTTP/1.1" 404 751
-0:0:0:0:0:0:0:1 - - [05/Oct/2023:18:09:24 -0700] "GET /SpringPharma/ HTTP/1.1" 200 98
-0:0:0:0:0:0:0:1 - - [05/Oct/2023:18:09:26 -0700] "GET /SpringPharma/login.jsp HTTP/1.1" 200 506
-0:0:0:0:0:0:0:1 - - [05/Oct/2023:18:09:34 -0700] "POST /SpringPharma/loginvalid HTTP/1.1" 500 6329
+127.0.0.1 - - [05/Oct/2023:20:54:50 -0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:20:54:50 -0700] "GET /SpringPharma/ HTTP/1.1" 200 99
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:20:54:54 -0700] "GET /SpringPharma/login.jsp HTTP/1.1" 200 506
+0:0:0:0:0:0:0:1 - - [05/Oct/2023:20:55:00 -0700] "POST /SpringPharma/loginvalid HTTP/1.1" 500 6335

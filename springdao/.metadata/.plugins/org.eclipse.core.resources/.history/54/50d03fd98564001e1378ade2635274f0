@@ -1,0 +1,15 @@
+package com.infinite.springaop;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public static void main(String[] args) {
+	// TODO Auto-generated method stub
+	ApplicationContext context =   new ClassPathXmlApplicationContext("applicationcontext.xml");
+			//Get BusinessLogic bean object from ApplicationContext instance. 
+			CommomnClass businessLogic = 
+			  (CommomnClass) context.getBean("businessLogic");
+			//Call implementBusinessLogic method of BusinessLogic bean.
+			businessLogic.display();
+}
+ 
