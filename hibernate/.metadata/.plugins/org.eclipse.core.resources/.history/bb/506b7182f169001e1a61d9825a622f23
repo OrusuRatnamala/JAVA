@@ -1,5 +1,0 @@
-package org.infinite.hibernate.pojo;
-
-public class Student {
-
-}
