@@ -1,0 +1,12 @@
+package com.infinite.hibernate.test;
+
+import com.infinite.hibernate.diImpl.StudentImpl;
+
+public class DaoTest {
+	public static void main(String[] aargs) {
+
+		StudentImpl s = new StudentImpl();
+		s.createRecord();
+	}
+
+}

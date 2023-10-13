@@ -1,0 +1,23 @@
+package com.infinite.properties;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class PropertiesContoller {
+	@Value("${company}")
+	@RequestMapping("/create")
+	public String create(Model mod) {
+		System.out.println("create was invoked");
+		return "index";
+
+	}
+private String Cname;
+	@RequestMapping("/delete")
+	public String delete() {
+		System.out.println("delete was invoked");
+		return "delete";
+	}
+
+}

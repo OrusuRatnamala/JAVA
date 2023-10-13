@@ -1,0 +1,5 @@
+package com.infinite.hibernate.test;
+
+public class DaoTest {
+
+}

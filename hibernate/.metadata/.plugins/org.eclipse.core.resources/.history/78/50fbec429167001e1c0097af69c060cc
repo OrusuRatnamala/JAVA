@@ -1,0 +1,9 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+	<%=request.getAttribute("comp")%>
+	${comp}
+</body>
+</html>
