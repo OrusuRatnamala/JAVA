@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Insert title here</title>
+</head>
+<body>
+	<h1 class="title">
+		<i>User Registration </i>
+	</h1>
+	<hr>
+	<form method="post" action="register">
+		<label class="1">name:</label> <input type="text" placeholder="name">
+		<br> <label>email:</label> <input type="text"
+			placeholder="xxxxx@gmail.com" id="Eid"> <br> <label>password:</label>
+		<input type="password" name="password" placeholder="pass">
+		<br> <label for="Birtday">Date Of Birtday</label> <input
+			type="date" id="Birtday" value="Birtday"> <br> <label>Gender:</label>
+		<label>male</label> <input type="radio" name="gender" id="male">
+		<label>Female</label> <input type="radio" name="gender" id="female">
+		<br> <input type="submit" name="button" value="Register">
+		<br>
+	</form>
+</body>
+</html>

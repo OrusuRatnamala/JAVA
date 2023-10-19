@@ -1,0 +1,7 @@
+<html>
+<body>Login
+<a href="login.jsp">CLICK HERE</a>.
+<br> REGISTOR
+<a href="registor.jsp">CLICK HERE</a>.
+</body>
+</html>
