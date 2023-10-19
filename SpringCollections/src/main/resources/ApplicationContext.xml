@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+	<context:annotation-config />
+
+
+	<bean id="mapexampleconst" class="com.infinite.Collections.MapConstructorinjection">
+		<constructor-arg>
+			<map>
+				<entry key="10000" value="Yash"></entry>
+				<entry key="10000" value="Ratna"></entry>
+			</map>
+		</constructor-arg>
+	</bean>
+
+
+	<bean id="mapexample" class="com.infinite.Collections.MapBean">
+		<property name="mp">
+			<map>
+				<entry key="10000" value="Yash"></entry>
+				<entry key="10000" value="Ratna"></entry>
+			</map>
+		</property>
+	</bean>
+
+	<bean id="CollectionTest" class="com.infinite.Collections.CollectionTest">
+		<property name="cname" value="infinite"></property>
+		<property name="ls">
+			<list>
+				<value>Srinivas</value>
+				<value>Ratna</value>
+				<value>null</value>
+			</list>
+		</property>
+	</bean>
+
+
+	<bean id="SetExample" class="com.infinite.Collections.SetTest">
+		<property name="st">
+			<set>
+				<value> Prasad</value>
+				<value>Prasad</value>
+			</set>
+		</property>
+	</bean>
+</beans>
+
