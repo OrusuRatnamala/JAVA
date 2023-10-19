@@ -1,0 +1,5 @@
+package com.infinite.hibernate.diImpl;
+
+public class StudentImpl {
+
+}

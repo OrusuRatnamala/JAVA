@@ -1,0 +1,5 @@
+org\infinite\persistence\StudentDBOperations.class
+org\infinite\business\HibernateTest.class
+org\infinite\utils\HibernateUtils.class
+org\infinite\business\Student.class
+org\infinite\business\Subject.class

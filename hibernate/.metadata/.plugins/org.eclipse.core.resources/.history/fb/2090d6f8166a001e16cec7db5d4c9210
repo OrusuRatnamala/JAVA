@@ -1,0 +1,5 @@
+package org.infinite.persistence;
+
+public class StudentDbOperations {
+
+}

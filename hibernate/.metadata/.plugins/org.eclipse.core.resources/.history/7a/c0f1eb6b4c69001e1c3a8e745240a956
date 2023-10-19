@@ -1,0 +1,34 @@
+package org.infinite.pojo;
+
+import java.util.List;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.hibernate.criterion.Restrictions;
+import org.infinite.utils.HibernateUtils;
+
+public class HqlTest {
+	public static void main(String[] args) {
+		// Get the session object.
+		Session session = HibernateUtils.getSessionFactory().openSession();
+		Transaction tx = null;
+		tx = session.beginTransaction();
+		try {
+			Query query = session.createQuery("update Student set Age=:Age where First_Name=:First_Name");
+			query.setInteger("Age", 47);
+			query.setString("First_Name", "lokesh");
+		} catch (HibernateException e) {
+			if (tx != null) {
+				// Roll back if any exception occurs.
+				tx.rollback();
+			}
+			e.printStackTrace();
+		} finally {
+			// Close hibernate session.
+			session.close();
+		}
+
+	}
+}
