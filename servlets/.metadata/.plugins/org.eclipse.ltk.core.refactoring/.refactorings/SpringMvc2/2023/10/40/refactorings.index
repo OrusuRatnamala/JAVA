@@ -1,0 +1,20 @@
+1696356848588	Delete element
+1696357234725	Move 'main' to 'main'
+1696357268513	Delete element
+1696357872211	Move 'WEB-INF' to 'webapp'
+1696358020869	Move 'spring-servlets.xml' to 'WEB-INF'
+1696358197222	Move 'web.xml' to 'WEB-INF'
+1696358266587	Delete element
+1696358349526	Rename resource 'insert.jsp'
+1696359852969	Move file
+1696360215154	Delete element
+1696360268712	Delete element
+1696360541823	Move 'webapp' to 'src'
+1696361503264	Delete element
+1696362625081	Move 'WEB-INF' to 'webapp'
+1696362635622	Move folder
+1696363111226	Delete element
+1696369801866	Move 'Log4j.properties' to 'target'
+1696369933363	Delete element
+1696370076954	Rename package 'com.infinite.springs'
+1696370120781	Delete element
