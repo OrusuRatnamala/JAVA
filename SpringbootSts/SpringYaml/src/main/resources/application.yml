@@ -1,0 +1,11 @@
+--- 
+#section
+server:
+ port: 6666
+ 
+ #profiles
+---
+spring:
+  profiles:
+   active: prod
+ 
